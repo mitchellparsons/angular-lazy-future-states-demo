@@ -1,0 +1,10 @@
+<div style="border:1px solid red">
+    <h2>Users List at "/users/list"</h2>
+    <ul>
+        <li ng-repeat="user in users">
+            <a ui-sref="users.detail({userId:user.id})">{{user.name}}</a>
+        </li>
+    </ul>
+    <div ui-view class="span9 slide"></div>
+    
+</div>

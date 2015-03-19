@@ -1,0 +1,16 @@
+[
+  {
+    "stateName": "users",
+    "url": "/users",
+    "type": "ocLazyLoad",
+    "src": "states/users/users.module",
+    "module": "psapp.users"
+  },
+  {
+  	"stateName": "grids",
+  	"url": "/grids",
+  	"type": "ocLazyLoad",
+  	"src": "states/grids/grids.module",
+    "module": "psapp.grids"
+  }
+]
